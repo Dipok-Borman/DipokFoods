@@ -1,0 +1,44 @@
+.logo{
+    width: 200px;
+}
+.topNav{
+    width: 35%;
+}
+#inputArea{
+    margin-top: 115px;
+}
+
+#allFood{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+#search{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+.meal{
+    border: 1px solid black;
+    box-shadow: 5px 5px 14px black inset;
+    border-radius: 20px;
+}
+#search .meal img{
+    Max-width:100%;
+}
+.dataMeal{
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 14px inset;
+    text-align: center;
+    padding: 50px;
+}
+.dataMeal img{
+    max-width: 100%;
+}
+#foodSample{
+    margin-top: 100px;
+}
