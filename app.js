@@ -55,7 +55,7 @@ const categories = meals => {
    });
 }
 //trial Know:
-
+const close = document.getElementById('close');
 const clickDetails = document.getElementById('clickDetails');
 const clickDetail = mealDiv => {
 
@@ -84,7 +84,9 @@ const clickDetail = mealDiv => {
     `
     dataMeal.innerHTML = detailsFood;
     clickDetails.appendChild(dataMeal);
-    
+    close.addEventListener('click', ()=>{
+        dataMeal.style.display ="none";
+    })
 }
 
    
